@@ -1,0 +1,27 @@
+table{
+    border: solid;
+    width: 500px;
+    border-color: green;
+   
+
+    
+    
+
+
+}
+ td{
+    background-color: green;
+    width: 3px;
+    color: white;
+    text-align: center;
+    text-decoration: dashed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+
+ }
+
+ .enter{
+    background-color:rgba(169, 168, 168, 0.88);
+    color: green;
+ }

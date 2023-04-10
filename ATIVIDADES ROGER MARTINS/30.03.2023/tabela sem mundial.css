@@ -1,0 +1,20 @@
+.clube{
+    width: 200px;
+}
+
+td{
+    border-bottom: 1px solid white;
+
+
+}
+
+table{
+    border: 1px solid black;
+    color: white;
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+ th{
+    text-align: left;
+ }

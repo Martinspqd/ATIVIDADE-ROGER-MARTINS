@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <form>
+<fieldset>
+    <legend>identificação </legend>
+        <label for="cNome">Nome</label>
+        <input type="text" id="cNome" required>
+        <br><br>
+        <input type="submit" value="mostrar">
+        <br><br>
+        <input type="radio" >
+        <label for="">cidade</label><br><br>
+        <input type="radio">
+        <label for="">interior</label><br><br>     
+        <input type="radio">
+        <label for="">bairro</label>
+        <br><br>
+</fieldset>
+        
+
+<fieldset>
+    <legend>identificação</legend>
+        <p>Qual é o seu meio de transporte?</p>
+        <input type="checkbox">
+        <label for="">bicicleta</label><br>
+        <input type="checkbox">
+        <label for="">carro</label><br>
+        <input type="checkbox">
+        <label for="">busão</label><br>
+        <input type="checkbox">
+        <label for="">metrô</label><br>
+</fieldset>       
+
+<fieldset>
+    <legend>identificação</legend>
+        <p>Selecione o seu time</p>
+        <select name="" id="">
+            <option value="Corinthians">Corinthians</option>
+            <option value="Palmeiras">Palmeiras</option>
+            <option value="Santos">Santos</option>
+            <option value="Flamengo">Flamengo</option>
+            <option value="Fluminense">Fluminense</option>
+            <option value="Atlético Mineiro">Atlético Mineiro</option>
+        </select>
+</fieldset>
+
+<fieldset>
+    <legend>identificação</legend>
+        <p>Escolha a sua cidade</p>
+        <label for="">Cidade</label>
+        <input autocomplete="on" list="cidade" aria-placeholder="Sua Cidade">
+        
+        <datalist id="cidade">
+        <option value="São Paulo">São Paulo</option>
+        <option value="Bahia">Bahia</option>
+        <option value="Minas Gerais">Minas Gerais</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+        <option value="Amazonas">Amazonas</option>
+        <option value="Acre">Acre</option>
+        </datalist><br><br>
+</fieldset>
+<fieldset>
+    <legend>identificação</legend>
+        0 <input type="range" > 200
+</fieldset>
+        
+<br><br>
+ 
+
+<fieldset>
+    <legend>identificação</legend>
+        <p>Sugestões, elogios, críticas: </p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+        <input type="submit" value="encaminhar"><br>
+
+</fieldset>       
+     </form>
+</body>
+</html>
